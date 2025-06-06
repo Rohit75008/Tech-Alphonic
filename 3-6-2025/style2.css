@@ -1,0 +1,93 @@
+/* col-6 css */
+.rohit{
+        width: 100%;
+        height: 100%;
+        padding: 64px;
+        background-color:#1b334b;
+    }
+
+    .parent{
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .secondchild h1 span{
+        
+        text-align: center;
+
+        color: #71c6f0;
+    }
+    .wchild{
+        color: white;
+    }
+    .wchild .address span{
+        
+        margin-left: 8px;
+    } 
+    
+    .wchild .contact span{
+        margin-left: 7px;
+    }
+     .wchild .website span{
+        margin-left: 10px;
+        color: #71c6f0;
+        
+         }
+ .find{
+    color: white;
+      }
+    
+    .abc
+      {
+        color: white;
+      }
+  
+
+
+
+      /* form css */
+    .ab{
+    width:100%;
+    max-width: 250px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+
+.form h2{
+    text-align:center;
+    color: #066da0;
+}
+
+.form p{
+    color: #010b11;
+}
+
+.form form{
+    /* display: grid; */
+
+    color: #000000;
+}
+
+.birthday {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.button{
+    
+    margin: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .row {
+        text-align: center;
+    }
+
+   
+}

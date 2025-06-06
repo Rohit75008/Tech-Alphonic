@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #0f2b45;
+    color: white;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #39a0ed;
+  }
+  
+  .hero-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .explore-btn {
+    background-color: #39a0ed;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+  }
+  
+  .arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    padding: 0 20px;
+    transform: translateY(-50%);
+    opacity: 0.4;
+  }
+  
+  .join-us {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a3b5c;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .footer-info {
+    width: 40%;
+  }
+  
+  .logo-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .logo-text p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form-container {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #1a3b5c;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #39a0ed;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
